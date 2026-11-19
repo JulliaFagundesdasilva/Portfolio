@@ -380,28 +380,115 @@ header nav a:hover {
    7. RESPONSIVIDADE (CELULAR)
    ========================================= */
 @media (max-width: 768px) {
-  .apresentacao,
-  .bloco-quem-sou {
+  
+  header {
+    padding: 12px 10px;
+    gap: 8px;
+  }
+
+  header nav {
+    gap: 6px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  header nav a {
+    font-size: 0.85rem;
+    padding: 6px 10px;
+  }
+
+  #botao-tema img {
+    width: 34px;
+  }
+
+  
+  .apresentacao, .bloco-quem-sou {
     flex-direction: column;
     height: auto;
-    padding: 20px;
+    padding: 30px 15px;
+    text-align: center;
+    gap: 25px;
+  }
+
+  .texto-apresentacao, .caixa-titulo-quem-sou h2 {
     text-align: center;
   }
 
-  .texto-apresentacao,
-  .caixa-titulo-quem-sou h2 {
-    text-align: center;
+  .titulo-principal {
+    font-size: 4.5rem;
+  }
+
+  .subtitulo {
+    font-size: 1.05rem;
   }
 
   .ilustracao-nuvem {
-    width: 100%;
-    max-width: 340px;
-    padding-top: 120px;
+    width: 280px;
+    padding-top: 110px;
+    margin: 0 auto;
+  }
+
+  .img-garota {
+    width: 125px;
+    bottom: 40px;
+  }
+
+ 
+  .caixa-titulo-quem-sou {
+    padding: 60px 10px;
+  }
+
+  .caixa-titulo-quem-sou h2 {
+    font-size: 3rem;
+  }
+
+  .decoracoes-baixo img:nth-child(6) {
+    right: -45px;
+    width: 65px;
+  }
+
+  .decoracoes-baixo img:nth-child(7) {
+    display: none;
   }
 
   .flores {
-    width: 100%;
-    margin-top: 40px;
+    width: 540px;
+    margin: -30px auto 0 auto;
+    transform: scale(0.62); 
+    transform-origin: top center;
+    margin-bottom: -90px;
+  }
+
+ 
+  h2 {
+    font-size: 2.6rem;
+  }
+
+  .titulo-com-desenhos {
+    gap: 10px;
+  }
+
+  .titulo-com-desenhos img {
+    width: 45px;
+  }
+
+  .caixa-formacao {
+    padding: 25px 20px;
+  }
+
+ 
+  .decoracoes,
+  .enfeite-fundo {
+    z-index: 0 !important;
+    opacity: 0.45 !important;
+  }
+
+  .decoracoes-topo img:nth-child(5),
+  .decoracoes-topo img:nth-child(6),
+  .decoracoes-topo img:nth-child(7),
+  .decoracoes-topo img:nth-child(8),
+  .decoracoes-topo img:nth-child(16) {
+    display: none; 
   }
 }
 
