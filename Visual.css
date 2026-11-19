@@ -211,6 +211,10 @@ header nav a:hover {
 /* =========================================
    5. SEÇÃO 1: QUEM SOU EU? E NUVEM DAS FLORES
    ========================================= */
+#quem-sou-eu {
+  scroll-margin-top: 110px;
+}
+
 .bloco-quem-sou {
   position: relative;
   min-height: 320px;
