@@ -437,11 +437,11 @@ dialog:not([open]) {
 
 /* Fundos ilustrados individuais dos pop-ups */
 #data-popup1 {
-  background-image: url("imagens/fundo-popup1.png");
+  background-image: url("Imagens/fundo-popup1.png");
 }
 
 #data-popup2 {
-  background-image: url("imagens/fundo-popup2.png");
+  background-image: url("Imagens/fundo-popup2.png");
 }
 
 .fechar-modal {
@@ -518,7 +518,7 @@ dialog.modal-duplo:not([open]) {
   position: relative;
   width: 100%;
   min-height: 360px;
-  background-image: url("imagens/fundo-popup3.png");
+  background-image: url("Imagens/fundo-popup3.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   padding: 70px 40px 45px 40px;
@@ -548,7 +548,7 @@ dialog.modal-duplo:not([open]) {
   width: 425px;
   max-width: 90%;
   min-height: 175px;
-  background-image: url("imagens/fundo-musica.png");
+  background-image: url("Imagens/fundo-musica.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-color: transparent;
