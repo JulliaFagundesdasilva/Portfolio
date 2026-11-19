@@ -10,9 +10,9 @@ if (botaoTema && iconeTema) {
     document.body.classList.toggle("modo-noturno");
 
     if (document.body.classList.contains("modo-noturno")) {
-      iconeTema.src = "imagens/diurno.png"; // Ícone para indicar retorno ao modo claro
+      iconeTema.src = "Imagens/diurno.png"; // Ícone para indicar retorno ao modo claro
     } else {
-      iconeTema.src = "imagens/noturno.png"; // Ícone para indicar ativação do modo noturno
+      iconeTema.src = "Imagens/noturno.png"; // Ícone para indicar ativação do modo noturno
     }
   });
 }
@@ -52,7 +52,7 @@ botoesFechar.forEach((botao) => {
 
     if (modal.id === "data-popup3" && audioPlayer && iconePlay) {
       audioPlayer.pause();
-      iconePlay.src = "imagens/play.png";
+      iconePlay.src = "Imagens/play.png";
     }
   });
 });
@@ -110,37 +110,37 @@ const playlist = [
   {
     titulo: "Pocket Full of Sunshine - Natasha Bedingfield",
     arquivo: "Audios/PocketfulofSunshine.mp3",
-    capa: "imagens/PFS.jpg"
+    capa: "Imagens/PFS.jpg"
   },
   {
     titulo: "Carolina, Carol Bela - Toquinho",
     arquivo: "Audios/CarolinaCarolBela.mp3",
-    capa: "imagens/CCB.jpeg"
+    capa: "Imagens/CCB.jpeg"
   },
   {
     titulo: "Filho - Tângela Vieira",
     arquivo: "Audios/Filho.mp3",
-    capa: "imagens/FI.jpeg"
+    capa: "Imagens/FI.jpeg"
   },
   {
     titulo: "Tian Mi Mi - Teresa Tang",
     arquivo: "Audios/TianMiMi.mp3",
-    capa: "imagens/TMM.jpg"
+    capa: "Imagens/TMM.jpg"
   },
   {
     titulo: "Dreams Come True - S.E.S",
     arquivo: "Audios/DreamsComeTrue.mp3",
-    capa: "imagens/DCT.jpeg"
+    capa: "Imagens/DCT.jpeg"
   },
   {
     titulo: "Kalam Eineh - Sherine",
     arquivo: "Audios/KalamEineh.mp3",
-    capa: "imagens/KE.jpeg"
+    capa: "Imagens/KE.jpeg"
   },
   {
     titulo: "Stay With Me - Miki Matsubara",
     arquivo: "Audios/Staywithme.mp3",
-    capa: "imagens/SWM.jpeg"
+    capa: "Imagens/SWM.jpeg"
   }
 ];
 
@@ -161,10 +161,10 @@ if (botaoPlay && audioPlayer && iconePlay) {
   botaoPlay.addEventListener("click", () => {
     if (audioPlayer.paused) {
       audioPlayer.play();
-      iconePlay.src = "imagens/pause.png";
+      iconePlay.src = "Imagens/pause.png";
     } else {
       audioPlayer.pause();
-      iconePlay.src = "imagens/play.png";
+      iconePlay.src = "Imagens/play.png";
     }
   });
 }
@@ -175,7 +175,7 @@ if (botaoAvancar && audioPlayer && iconePlay) {
     indiceAtual = (indiceAtual + 1) % playlist.length;
     carregarMusica(indiceAtual);
     audioPlayer.play();
-    iconePlay.src = "imagens/pause.png";
+    iconePlay.src = "Imagens/pause.png";
   });
 }
 
@@ -185,7 +185,7 @@ if (botaoVoltar && audioPlayer && iconePlay) {
     indiceAtual = (indiceAtual - 1 + playlist.length) % playlist.length;
     carregarMusica(indiceAtual);
     audioPlayer.play();
-    iconePlay.src = "imagens/pause.png";
+    iconePlay.src = "Imagens/pause.png";
   });
 }
 
@@ -290,9 +290,9 @@ setInterval(criarBolha, 3500);
 function decorarSecoesInferiores() {
   const secoes = ["formacao", "portfolio", "contato"];
   const imagensEnfeites = [
-    "imagens/estrela.png",
-    "imagens/star.png",
-    "imagens/bolha.png"
+    "Imagens/estrela.png",
+    "Imagens/star.png",
+    "Imagens/bolha.png"
   ];
 
   // Faixas verticais fixas para distribuir os enfeites sem sobreposição
